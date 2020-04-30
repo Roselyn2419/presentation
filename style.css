@@ -1,11 +1,92 @@
 /* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  background-color: black;
+  color: white;
+  margin: 0;
+/*   font-family: 'Indie Flower', cursive; */
+}
+h1{
+  font-family: 'Pacifico', cursive;
+}
+p {
+  font-family: 'Indie Flower', cursive;
+}
+.jumbotron,
+.hero {
+  text-align: center;
+  background-color: transparent;
+  background-image: url('https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2Flemonpot_edit%20(1).jpg?v=1588208428050');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+.jumbotron .jumbotron-container,
+.hero .hero-container {
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 5% 0;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+.jumbotron.strains {
+  background-image: url('https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2Flemonpot_edit.jpg?v=1588208177400');
+}
+
+.jumbotron.recipes {
+  background-image: url('https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2F90eaba6dd25de0da72d8ad516d34118c.jpeg?v=1588110429688');
+}
+.jumbotron .jumbotron-container h1 {
+  font-family: 'Indie Flower', cursive;
+  color: #fff;
+}
+
+/* Styles for info.html page */
+.nav-menu-items {
+  margin: 0;
+  padding: 1em 0;
+  list-style: none;
+  text-align: center;
+  background-color: gray;
+}
+.nav-menu-items li {
+  display: inline-block;
+}
+.nav-menu-items li a,
+.nav-menu-items li a:link,
+.nav-menu-items li a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.content-container {
+  padding: 0 5%;
+}
+
+#strains img {
+  max-width: 64px;
+}
+
+.strains-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.strains-container ul li {
+  display: inline-block;
+  vertical-align: text-top;
+}
+.strains-container ul li img {
+  margin-right: 1em;
+}
+
+.strains-container ul li h2,
+.strains-container ul li p {
+  margin-top: 0;
+}
+
+.card {
+  background-color: black;
 }
