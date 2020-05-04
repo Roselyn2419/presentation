@@ -1,24 +1,26 @@
 /* CSS files add styling rules to your content */
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
 
 body {
   font-family: helvetica, arial, sans-serif;
   background-color: black;
   color: white;
   margin: 0;
-/*   font-family: 'Indie Flower', cursive; */
+  /*   font-family: 'Indie Flower', cursive; */
 }
-h1{
-  font-family: 'Pacifico', cursive;
+h1 {
+  font-family: "Pacifico", cursive;
 }
 p {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Playfair Display", serif;
 }
 .jumbotron,
 .hero {
   text-align: center;
   background-color: transparent;
-  background-image: url('https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2Flemonpot_edit%20(1).jpg?v=1588208428050');
+  background-image: url("https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2Flemonpot_edit%20(1).jpg?v=1588208428050");
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
@@ -31,14 +33,14 @@ p {
 }
 
 .jumbotron.strains {
-  background-image: url('https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2Flemonpot_edit.jpg?v=1588208177400');
+  background-image: url("https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2Flemonpot_edit.jpg?v=1588208177400");
 }
 
 .jumbotron.recipes {
-  background-image: url('https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2F90eaba6dd25de0da72d8ad516d34118c.jpeg?v=1588110429688');
+  background-image: url("https://cdn.glitch.com/116ca0b4-227c-4188-b8ac-8d0b5de8bff7%2F90eaba6dd25de0da72d8ad516d34118c.jpeg?v=1588110429688");
 }
 .jumbotron .jumbotron-container h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Pacifico", cursive;
   color: #fff;
 }
 
@@ -89,4 +91,8 @@ p {
 
 .card {
   background-color: black;
+}
+
+h6 {
+  font-family: "Roboto", sans-serif;
 }
