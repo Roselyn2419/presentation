@@ -67,32 +67,41 @@ p {
   padding: 0 5%;
 }
 
-#strains img {
+#recipes img {
   max-width: 64px;
 }
 
-.strains-container ul {
+.recipes-container ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.strains-container ul li {
+.recipes-container ul li {
   display: inline-block;
   vertical-align: text-top;
 }
-.strains-container ul li img {
+.recipes-container ul li img {
   margin-right: 1em;
 }
 
-.strains-container ul li h2,
-.strains-container ul li p {
+.recipes-container ul li h2,
+.recipes-container ul li p {
   margin-top: 0;
 }
 
 .card {
   background-color: black;
 }
-
+#recipes img {
+  max-width: 64px;
+}
+.recipes ul li {
+  display: inline-block;
+  horizontal-align: ;
+}
+.recipes-container ul li img {
+  margin-right: 1em;
+}
 h6 {
   font-family: "Roboto", sans-serif;
 }
